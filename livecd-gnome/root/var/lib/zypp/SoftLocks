@@ -1,0 +1,16 @@
+patterns-openSUSE-apparmor_opt
+patterns-openSUSE-enhanced_base_opt
+patterns-openSUSE-fonts_opt
+patterns-openSUSE-gnome_basis_opt
+patterns-openSUSE-gnome_imaging_opt
+patterns-openSUSE-gnome_multimedia_opt
+patterns-openSUSE-gnome_office_opt
+patterns-openSUSE-imaging_opt
+patterns-openSUSE-kde4_utilities_opt
+patterns-openSUSE-multimedia_opt
+patterns-openSUSE-non_oss_opt
+patterns-openSUSE-office_opt
+patterns-openSUSE-x11_opt
+zlib-32bit
+alsa-oss-32bit
+alsa-plugins-32bit

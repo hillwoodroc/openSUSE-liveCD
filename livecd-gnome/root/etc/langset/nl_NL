@@ -1,0 +1,13 @@
+RC_LANG: nl_NL.UTF-8
+CONSOLE_FONT: lat9w-16.psfu
+CONSOLE_SCREENMAP: trivial
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: us-acentos.map.gz
+YAST_KEYBOARD: us-int,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Amsterdam
+CONSOLE_ENCODING: UTF-8
+Apply: -layout us_intl -model microsoftpro
+XkbLayout: us_intl
+XkbModel: microsoftpro

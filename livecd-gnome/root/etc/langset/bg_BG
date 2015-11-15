@@ -1,0 +1,13 @@
+RC_LANG: bg_BG.UTF-8
+CONSOLE_FONT: UniCyr_8x16.psf
+CONSOLE_SCREENMAP: none
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: us.map.gz
+YAST_KEYBOARD: english-us,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Sofia
+CONSOLE_ENCODING: UTF-8
+Apply: -layout us -model microsoftpro
+XkbLayout: us
+XkbModel: microsoftpro

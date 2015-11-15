@@ -1,0 +1,13 @@
+RC_LANG: ro_RO.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: ro.map.gz
+YAST_KEYBOARD: romanian,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Bucharest
+CONSOLE_ENCODING: UTF-8
+Apply: -layout ro -model microsoftpro
+XkbLayout: ro
+XkbModel: microsoftpro

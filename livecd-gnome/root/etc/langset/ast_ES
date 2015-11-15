@@ -1,0 +1,13 @@
+RC_LANG: ast_ES.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: es.map.gz
+YAST_KEYBOARD: spanish,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Madrid
+CONSOLE_ENCODING: UTF-8
+Apply: -layout es -model microsoftpro
+XkbLayout: es
+XkbModel: microsoftpro

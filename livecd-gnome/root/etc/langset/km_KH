@@ -1,0 +1,14 @@
+RC_LANG: km_KH.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: khmer.map.gz
+YAST_KEYBOARD: khmer,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Asia/Phnom_Penh
+CONSOLE_ENCODING: UTF-8
+Apply: -layout us,kh -option grp:alt_shift_toggle -model microsoftpro
+XkbLayout: us,kh
+XkbModel: microsoftpro
+XkbOptions: grp:alt_shift_toggle

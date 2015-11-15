@@ -1,0 +1,14 @@
+RC_LANG: wa_BE.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: be-latin1.map.gz
+YAST_KEYBOARD: belgian,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Brussels
+CONSOLE_ENCODING: UTF-8
+Apply: -model microsoftpro -layout be -option caps:capslock
+XkbLayout: be
+XkbModel: microsoftpro
+XkbOptions: caps:capslock

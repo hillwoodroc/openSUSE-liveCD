@@ -1,0 +1,14 @@
+RC_LANG: ar_EG.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: arabic.map.gz
+YAST_KEYBOARD: arabic,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Africa/Cairo
+CONSOLE_ENCODING: UTF-8
+Apply: -option grp:shift_toggle -layout ara,us -model microsoftpro
+XkbLayout: ara,us
+XkbModel: microsoftpro
+XkbOptions: grp:shift_toggle

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<image schemaversion="6.1" name="openSUSE-Leap-42.1-livecd-KDE" displayname="openSUSE_Leap_42.1_KDE_Live">
+  <description type="system">
+    <author>Stephan Kulow</author>
+    <contact>coolo@novell.com</contact>
+    <specification>openSUSE Leap 42.1 Live system</specification>
+  </description>
+  <preferences>
+    <type primary="true" boot="isoboot/suse-leap42.1" bootprofile="default" bootkernel="desktop" filesystem="ext4" flags="overlay" hybrid="true" hybridpersistent="true" image="iso" editbootconfig="isopatch.sh" firmware="uefi" volid="openSUSE Leap 42.1 KDE Live"/>
+    <version>2.8.0</version>
+    <bootloader-theme>openSUSE</bootloader-theme>
+    <bootsplash-theme>openSUSE</bootsplash-theme>
+    <packagemanager>zypper</packagemanager>
+    <rpm-check-signatures>false</rpm-check-signatures>
+    <rpm-force>false</rpm-force>
+    <locale>en_US</locale>
+    <rpm-excludedocs>false</rpm-excludedocs>
+  </preferences>
+  <users group="root">
+    <user name="root" password="" home="/root"/>
+  </users>
+  <packages type="image" patternType="plusRecommended">
+    <package name="gfxboot-branding-openSUSE" bootinclude="true" bootdelete="true"/>
+    <package name="grub2-branding-openSUSE" bootinclude="true"/>
+    <!-- workaround for bnc#892087 -->
+    <package name="e2fsprogs" bootinclude="true"/>
+    <package name="yast2-live-installer"/>
+    <package name="pam"/>
+    <package name="pam-config"/>
+    <package name="pam-modules"/>
+    <package name="udev"/>
+    <package name="aaa_base"/>
+    <package name="tar"/>
+    <package name="patch"/>
+    <package name="zypper"/>
+    <package name='xf86-video-sis'/>
+    <package name='xf86-video-nv'/>
+    <package name='xf86-input-vmmouse'/>
+    <package name='xf86-input-mouse'/>
+    <package name='xf86-video-vmware'/>
+    <package name='xf86-video-ati'/>
+    <package name='xf86-video-intel'/>
+    <package name='virtualbox-guest-tools'/>
+    <package name='virtualbox-guest-x11'/>
+    <package name='x11-tools'/>
+    <package name='xorg-x11'/>
+    <package name='xorg-x11-driver-input'/>
+    <package name='xorg-x11-driver-video'/>
+    <package name='xorg-x11-fonts'/>
+    <package name="patterns-openSUSE-kde"/>
+    <package name="patterns-openSUSE-kde_games"/>
+    <package name="patterns-openSUSE-kde_imaging"/>
+    <package name="patterns-openSUSE-kde_internet"/>
+    <package name="patterns-openSUSE-kde_multimedia"/>
+    <package name="patterns-openSUSE-kde_office"/>
+    <package name="patterns-openSUSE-kde_plasma"/>
+    <package name="patterns-openSUSE-kde_utilities"/>
+    <package name="patterns-openSUSE-kde_utilities_opt"/>
+    <package name="patterns-openSUSE-kde_yast"/>
+    <package name="patterns-openSUSE-sw_management_kde"/>
+    <package name="kdebase4-opensuse"/>
+    <package name="qt-creator"/>
+    <package name="kdevelop4"/>
+    <package name="audacity"/>
+    <package name="audacity-lang"/>
+    <package name="kdenlive"/>
+    <package name="MozillaFirefox-translations-common"/>
+    <package name="yast2-trans-zh_CN"/>
+    <package name="yast2-trans-zh_TW"/>
+    <package name="gimp-help-zh"/>
+    <package name="man-pages-zh_CN"/>
+    <package name="libreoffice-l10n-zh-Hant"/>
+    <package name="libreoffice-l10n-zh-Hans"/>
+    <package name="translation-update-zh_CN"/>
+    <package name="translation-update-zh_TW"/>
+    <package name="translation-update-zh_HK"/>
+    <package name="kde-l10n-zh_CN"/>
+    <package name="kde-l10n-zh_TW"/>
+    <package name="fcitx"/>
+    <package name="fcitx-gtk2"/>
+    <package name="fcitx-gtk3"/>
+    <package name="fcitx-qt4"/>
+    <package name="fcitx-qt5"/>
+    <package name="fcitx-pinyin"/>
+    <package name="fcitx-sunpinyin"/>
+    <package name="fcitx-libpinyin"/>
+    <package name="kf5-kcm-fcitx"/>
+    <package name="desktop-translations"/>
+    <package name="wqy-microhei-fonts"/>
+    <package name="vlc"/>
+    <package name="vlc-codecs"/>
+    <package name="vlc-noX-lang"/>
+    <package name="osdlyrics"/>
+    <package name="osdlyrics-lang"/>
+    <package name="gstreamer-plugins-bad-orig-addon"/>
+    <package name="gstreamer-plugins-good-extra"/>
+    <package name="gstreamer-plugins-libav"/>
+    <package name="gstreamer-plugins-ugly-orig-addon"/>
+  </packages>
+  <packages type="bootstrap">
+    <package name="filesystem"/>
+    <package name="openSUSE-release"/>
+    <package name="branding-openSUSE"/>
+  </packages>
+  <repository type="yast2">
+    <source path="https://mirrors.ustc.edu.cn/opensuse/distribution/leap/42.1/repo/oss/"/>
+  </repository>
+  <repository type="rpm-md">
+    <source path="https://mirrors.ustc.edu.cn/opensuse/update/leap/42.1/oss/"/>
+  </repository>
+  <repository type="rpm-md">
+    <source path="http://download.opensuse.org/repositories/home:/hillwood/openSUSE_Leap_42.1/"/>
+  </repository>
+  <repository type="rpm-md">
+    <source path="http://download.opensuse.org/repositories/home:/opensuse_zh/openSUSE_Leap_42.1/"/>
+  </repository>
+  <repository type="rpm-md">
+    <source path="http://ftp.halifax.rwth-aachen.de/packman/suse/openSUSE_Leap_42.1/"/>
+  </repository>
+</image>
