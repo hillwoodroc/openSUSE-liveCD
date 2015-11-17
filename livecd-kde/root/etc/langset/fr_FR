@@ -1,0 +1,14 @@
+RC_LANG: fr_FR.UTF-8
+CONSOLE_FONT: lat9w-16.psfu
+CONSOLE_SCREENMAP: trivial
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: fr-latin1.map.gz
+YAST_KEYBOARD: french,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Paris
+CONSOLE_ENCODING: UTF-8
+Apply: -layout fr -model microsoftpro -option caps:capslock
+XkbLayout: fr
+XkbModel: microsoftpro
+XkbOptions: caps:capslock

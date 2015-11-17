@@ -1,0 +1,14 @@
+RC_LANG: de_DE.UTF-8
+CONSOLE_FONT: lat9w-16.psfu
+CONSOLE_SCREENMAP: trivial
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: de-latin1-nodeadkeys.map.gz
+YAST_KEYBOARD: german,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Berlin
+CONSOLE_ENCODING: UTF-8
+Apply: -variant nodeadkeys -layout de -model microsoftpro
+XkbLayout: de
+XkbModel: microsoftpro
+XkbVariant: nodeadkeys

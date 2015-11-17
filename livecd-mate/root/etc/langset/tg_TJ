@@ -1,0 +1,14 @@
+RC_LANG: tg_TJ.UTF-8
+CONSOLE_FONT: UniCyr_8x16.psf
+CONSOLE_SCREENMAP: none
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: tj_alt-UTF8.map.gz
+YAST_KEYBOARD: tajik,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Asia/Dushanbe
+CONSOLE_ENCODING: UTF-8
+Apply: -layout tj,us -model microsoftpro -option grp:ctrl_shift_toggle,grp_led:scroll
+XkbLayout: tj,us
+XkbModel: microsoftpro
+XkbOptions: grp:ctrl_shift_toggle,grp_led:scroll

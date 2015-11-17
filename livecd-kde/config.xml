@@ -67,6 +67,7 @@
     <package name="MozillaFirefox-translations-common"/>
     <package name="yast2-trans-zh_CN"/>
     <package name="yast2-trans-zh_TW"/>
+    <package name="amarok-lang"/>
     <package name="gimp-help-zh"/>
     <package name="man-pages-zh_CN"/>
     <package name="libreoffice-l10n-zh-Hant"/>

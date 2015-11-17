@@ -1,0 +1,13 @@
+RC_LANG: et_EE.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: et.map.gz
+YAST_KEYBOARD: estonian,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Tallinn
+CONSOLE_ENCODING: UTF-8
+Apply: -model microsoftpro -layout ee
+XkbLayout: ee
+XkbModel: microsoftpro

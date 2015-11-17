@@ -1,0 +1,13 @@
+RC_LANG: sv_SE.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: sv-latin1.map.gz
+YAST_KEYBOARD: swedish,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Stockholm
+CONSOLE_ENCODING: UTF-8
+Apply: -layout se -model microsoftpro
+XkbLayout: se
+XkbModel: microsoftpro

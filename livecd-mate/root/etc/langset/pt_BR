@@ -1,0 +1,13 @@
+RC_LANG: pt_BR.UTF-8
+CONSOLE_FONT: lat9w-16.psfu
+CONSOLE_SCREENMAP: trivial
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: br-abnt2.map.gz
+YAST_KEYBOARD: portugese-br,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Brazil/East
+CONSOLE_ENCODING: UTF-8
+Apply: -model microsoftpro -layout br
+XkbLayout: br
+XkbModel: microsoftpro

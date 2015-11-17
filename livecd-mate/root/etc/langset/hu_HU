@@ -1,0 +1,13 @@
+RC_LANG: hu_HU.UTF-8
+CONSOLE_FONT: lat2-16.psfu
+CONSOLE_SCREENMAP: 8859-2
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: hu.map.gz
+YAST_KEYBOARD: hungarian,pc104
+COMPOSETABLE: clear latin2
+TIMEZONE: Europe/Budapest
+CONSOLE_ENCODING: UTF-8
+Apply: -model microsoftpro -layout hu
+XkbLayout: hu
+XkbModel: microsoftpro

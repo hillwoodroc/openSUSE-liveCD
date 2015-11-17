@@ -1,0 +1,14 @@
+[Unit]
+Description=setup language based on kernel commandline
+DefaultDependencies=no
+Conflicts=shutdown.target
+Before=sysinit.target shutdown.target systemd-vconsole-setup.service systemd-localed.service
+ConditionPathExists=!/var/lib/zypp/RequestedLocales
+ 
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/sh /etc/langset.sh
+
+[Install]
+WantedBy=default.target

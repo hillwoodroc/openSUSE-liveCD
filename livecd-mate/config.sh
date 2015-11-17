@@ -80,11 +80,11 @@ chown -R linux /home/linux
 
 chkstat --system --set
 
-#for script in /usr/share/opensuse-kiwi/live_user_scripts/*.sh; do
-#  if test -f $script; then
-#     su - linux -c "/bin/bash $script"
-#  fi
-#done
+for script in /usr/share/opensuse-kiwi/live_user_scripts/*.sh; do
+  if test -f $script; then
+     su - linux -c "/bin/bash $script"
+  fi
+done
 
 rm -rf /var/cache/zypp/packages
 
@@ -110,3 +110,4 @@ baseUpdateSysConfig /etc/sysconfig/console CONSOLE_ENCODING "UTF-8"
 # bug 891183 yast2 live-installer --gtk segfaults
 baseUpdateSysConfig /etc/sysconfig/yast2 WANTED_GUI qt
 baseUpdateSysConfig /etc/sysconfig/displaymanager DISPLAYMANAGER lightdm
+baseUpdateSysConfig /etc/sysconfig/windowmanager DEFAULT_WM mate

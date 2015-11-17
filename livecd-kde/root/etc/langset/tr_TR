@@ -1,0 +1,14 @@
+RC_LANG: tr_TR.UTF-8
+CONSOLE_FONT: iso09.f16n
+CONSOLE_SCREENMAP: trivial
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: trq.map.gz
+YAST_KEYBOARD: turkish,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Istanbul
+CONSOLE_ENCODING: UTF-8
+Apply: -layout tr -model microsoftpro -option caps:shift
+XkbLayout: tr
+XkbModel: microsoftpro
+XkbOptions: caps:shift

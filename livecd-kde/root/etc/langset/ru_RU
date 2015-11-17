@@ -1,0 +1,15 @@
+RC_LANG: ru_RU.UTF-8
+CONSOLE_FONT: UniCyr_8x16.psf
+CONSOLE_SCREENMAP: none
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: ruwin_alt-UTF-8.map.gz
+YAST_KEYBOARD: russian,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Moscow
+CONSOLE_ENCODING: UTF-8
+Apply: -layout us,ru -option grp:ctrl_shift_toggle,grp_led:scroll -model microsoftpro -variant ,winkeys
+XkbLayout: us,ru
+XkbModel: microsoftpro
+XkbOptions: grp:ctrl_shift_toggle,grp_led:scroll
+XkbVariant: ,winkeys

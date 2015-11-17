@@ -1,0 +1,13 @@
+RC_LANG: hr_HR.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: croat.map.gz
+YAST_KEYBOARD: croatian,pc104
+COMPOSETABLE: clear latin2
+TIMEZONE: Europe/Zagreb
+CONSOLE_ENCODING: UTF-8
+Apply: -layout hr -model microsoftpro
+XkbLayout: hr
+XkbModel: microsoftpro

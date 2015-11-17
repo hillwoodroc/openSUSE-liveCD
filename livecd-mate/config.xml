@@ -58,8 +58,11 @@
     <package name="patterns-openSUSE-mate_utilities"/>
     <package name="audacity"/>
     <package name="audacity-lang"/>
-    <package name="kdenlive"/>
+    <package name="openshot"/>
+    <package name="rhythmbox"/>
+    <package name="rhythmbox-lang"/>
     <package name="MozillaFirefox-translations-common"/>
+    <package name="MozillaThunderbird-translations-common"/>
     <package name="yast2-trans-zh_CN"/>
     <package name="yast2-trans-zh_TW"/>
     <package name="gimp-help-zh"/>

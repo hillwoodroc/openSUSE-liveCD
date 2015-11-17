@@ -1,6 +1,6 @@
 16ca18fa17e2ff7284569317b3c5903f  ./config-cdroot.tgz
 57b68c50dae5b1df10153c8edd572383  ./config.sh
-ee35d1d83ebb3c1838f8ae5725fef65b  ./config.xml
+871b2314cfbec9923d905eb5baefa3ff  ./config.xml
 183b605b0f89b5b3c3530ba85452c28d  ./isopatch.sh
 4115f33521a785ad77a014394bb6ca15  ./root/etc/YaST2/control.xml
 2b4ddbd85255840c6dcad61b6e4ea152  ./root/etc/YaST2/liveinstall.patch
@@ -68,8 +68,8 @@ c3f1f3720ba230cf46568319a6deda1e  ./root/rpmkeys/gpg-pubkey-307e3d54-4be01a65.as
 e2900eee5db1d6c6349fc912a8fd0900  ./root/usr/bin/correct_live_for_reboot
 d40f0ca82617983273cc0716ff997d9d  ./root/usr/bin/correct_live_install
 c556e9837fe831528357fb3d0b89edb0  ./root/usr/lib/systemd/system/langset.service
-674a6e24b796ab457b45b0a3d9d30249  ./root/var/lib/livecd/geturls.sh
+14bd3bb9e54c4340b841db34d9902a0b  ./root/var/lib/livecd/geturls.sh
 dec33a230720476bd7c39bddf6fa7982  ./root/var/lib/zypp/AnonymousUniqueId
 7a75083b01bd7faadd3a7a771b857765  ./root/var/lib/zypp/LastDistributionFlavor
 aec9e45f03f3edb2ec8d6722bf9ae957  ./root/var/lib/zypp/SoftLocks
-9c050a16c07c38a3118378876065eed6  ./root/license.tar.gz
+fd6aac17f37159da63c3f6949a7e3b5c  ./root/license.tar.gz

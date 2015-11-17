@@ -1,0 +1,20 @@
+RC_LANG: sr_RS.UTF-8
+CONSOLE_FONT: UniCyr_8x16.psf
+CONSOLE_SCREENMAP: none
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: (K
+KEYTABLE: sr-cy.map.gz
+YAST_KEYBOARD: serbian,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Europe/Belgrade
+CONSOLE_ENCODING: UTF-8
+Apply: 
+LeftAlt: 
+RightAlt: 
+RightCtl: 
+ScrollLock: 
+XkbKeyCodes: 
+XkbLayout: 
+XkbModel: 
+XkbOptions: 
+XkbVariant: 

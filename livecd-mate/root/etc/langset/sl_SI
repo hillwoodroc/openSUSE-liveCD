@@ -1,0 +1,13 @@
+RC_LANG: sl_SI.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: slovene.map.gz
+YAST_KEYBOARD: slovene,pc104
+COMPOSETABLE: clear latin2
+TIMEZONE: Europe/Ljubljana
+CONSOLE_ENCODING: UTF-8
+Apply: -model microsoftpro -layout si
+XkbLayout: si
+XkbModel: microsoftpro

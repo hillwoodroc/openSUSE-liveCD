@@ -1,0 +1,13 @@
+RC_LANG: ko_KR.UTF-8
+CONSOLE_FONT: 
+CONSOLE_SCREENMAP: 
+CONSOLE_UNICODEMAP: 
+CONSOLE_MAGIC: 
+KEYTABLE: korean.map.gz
+YAST_KEYBOARD: korean,pc104
+COMPOSETABLE: clear latin1.add
+TIMEZONE: Asia/Seoul
+CONSOLE_ENCODING: UTF-8
+Apply: -layout kr -model microsoftpro
+XkbLayout: kr
+XkbModel: microsoftpro

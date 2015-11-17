@@ -66,6 +66,8 @@
     <package name="gnome-builder-lang"/>
     <package name="audacity"/>
     <package name="audacity-lang"/>
+    <package name="rhythmbox"/>
+    <package name="rhythmbox-lang"/>
     <package name="openshot"/>
     <package name="MozillaFirefox-translations-common"/>
     <package name="yast2-trans-zh_CN"/>
