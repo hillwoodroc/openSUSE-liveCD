@@ -11,19 +11,19 @@ livecd-kde:KDE 桌面环境的模版。附加 qt-creator IDE 开发工具、kdev
 livecd-mate:MATE 桌面环境的模版。附加 VLC 播放器、Gstreamer 解码器、Rhythmbox 音频播放器、Adobe Flash Player 插件、支付宝控件、openshot 视频处理软件。
 
 ###制作方法
-$ sudo zypper in kiwi kiwi-desc-isoboot kiwi-desc-oemboot kiwi-desc-netboot
+   $ sudo zypper in kiwi kiwi-desc-isoboot kiwi-desc-oemboot kiwi-desc-netboot
 
-$ su
+   $ su
 
-'# export 'KIWI_IGNORE_OLD_MOUNTS=yes'
+   # export 'KIWI_IGNORE_OLD_MOUNTS=yes'
 
-'# kiwi --createhash livecd-gnome      #如果没有修改模版可以跳过这一步
+   # kiwi --createhash livecd-gnome      #如果没有修改模版可以跳过这一步
 
-'# kiwi --build livecd-gnome -d gnome
+   # kiwi --build livecd-gnome -d gnome
 
 构建完成后会在 gnome 目录下生成一个 ISO 镜像。
 
 ###bug
 如果需要写入 u 盘，请扎写入结束后将 u 盘的最后一个分区格式化为 Btrfs 以外格式的分区，不然 kernel 会崩溃。
 
-[boo#494](https://bugzilla.opensuse.org/show_bug.cgi?id=950999) 
+[boo#950999](https://bugzilla.opensuse.org/show_bug.cgi?id=950999) 
