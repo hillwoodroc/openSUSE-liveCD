@@ -6,7 +6,7 @@
     <specification>openSUSE Leap 42.1 Live system</specification>
   </description>
   <preferences>
-    <type primary="true" boot="isoboot/suse-leap42.1" bootprofile="default" bootkernel="desktop" filesystem="ext4" flags="overlay" hybrid="true" hybridpersistent="true" image="iso" editbootconfig="isopatch.sh" firmware="uefi" volid="openSUSE Leap 42.1 KDE Live"/>
+    <type primary="true" boot="isoboot/suse-leap42.1" bootprofile="default" bootkernel="desktop" filesystem="ext4" flags="overlay" hybrid="true" hybridpersistent="true" hybridpersistent_filesystem="ext4" image="iso" editbootconfig="isopatch.sh" firmware="uefi" volid="openSUSE Leap 42.1 KDE Live"/>
     <version>2.8.0</version>
     <bootloader-theme>openSUSE</bootloader-theme>
     <bootsplash-theme>openSUSE</bootsplash-theme>
@@ -97,6 +97,9 @@
     <package name="gstreamer-plugins-good-extra"/>
     <package name="gstreamer-plugins-libav"/>
     <package name="gstreamer-plugins-ugly-orig-addon"/>
+    <package name="kate"/>
+    <package name="kate-plugins"/>
+    <package name="unrar"/>
   </packages>
   <packages type="bootstrap">
     <package name="filesystem"/>
@@ -105,6 +108,9 @@
   </packages>
   <repository type="yast2">
     <source path="https://mirrors.ustc.edu.cn/opensuse/distribution/leap/42.1/repo/oss/"/>
+  </repository>
+   <repository type="yast2">
+    <source path="https://mirrors.ustc.edu.cn/opensuse/distribution/leap/42.1/repo/non-oss/"/>
   </repository>
   <repository type="rpm-md">
     <source path="https://mirrors.ustc.edu.cn/opensuse/update/leap/42.1/oss/"/>
@@ -116,6 +122,6 @@
     <source path="http://download.opensuse.org/repositories/home:/opensuse_zh/openSUSE_Leap_42.1/"/>
   </repository>
   <repository type="rpm-md">
-    <source path="http://ftp.halifax.rwth-aachen.de/packman/suse/openSUSE_Leap_42.1/"/>
+    <source path="http://ftp.twaren.net/Linux/Packman/suse/openSUSE_Leap_42.1/"/>
   </repository>
 </image>

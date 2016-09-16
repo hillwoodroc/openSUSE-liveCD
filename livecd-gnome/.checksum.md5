@@ -1,9 +1,7 @@
 16ca18fa17e2ff7284569317b3c5903f  ./config-cdroot.tgz
 57b68c50dae5b1df10153c8edd572383  ./config.sh
-871b2314cfbec9923d905eb5baefa3ff  ./config.xml
+beb06ab2c6aecaa07397a881a8058021  ./config.xml
 183b605b0f89b5b3c3530ba85452c28d  ./isopatch.sh
-4115f33521a785ad77a014394bb6ca15  ./root/etc/YaST2/control.xml
-2b4ddbd85255840c6dcad61b6e4ea152  ./root/etc/YaST2/liveinstall.patch
 cc2b6b50381ad05f6f54dc1436256c71  ./root/etc/langset/af_ZA
 d40835d8ce2ada2eecb6fcfa6e454acb  ./root/etc/langset/ar_EG
 5920f10af8ec6a924aefbf740bbda561  ./root/etc/langset/ast_ES
@@ -46,6 +44,7 @@ fb9e4e42c0ac763453b0732c3b4f7c54  ./root/etc/langset/pl_PL
 5bac9c38376ac647b02dfeddbec49fb3  ./root/etc/langset/pt_PT
 cdcc8097f894e6ccc7c60e1b9325e580  ./root/etc/langset/ro_RO
 8feb9d929722c020d60b07b0696e8a4c  ./root/etc/langset/ru_RU
+7d537c597688996a6addc97bfb3c344f  ./root/etc/langset.sh
 198d3efc5e2e6a3558a04be639f5e4ca  ./root/etc/langset/si_LK
 b9f957792762ef961ff509abd7d46812  ./root/etc/langset/sk_SK
 5d090d7877e081074e07613f4928f2ab  ./root/etc/langset/sl_SI
@@ -62,14 +61,15 @@ db0495cf11015f2a2555e9cb2bc0c7fe  ./root/etc/langset/xh_ZA
 caf17cc9a46cad7d5d095dd1ddfec923  ./root/etc/langset/zh_CN
 2e979eca16b89e8ebe6e50f6db6f89b4  ./root/etc/langset/zh_TW
 1d2512d0c1d384c53d9f5edf19473bbd  ./root/etc/langset/zu_ZA
-7d537c597688996a6addc97bfb3c344f  ./root/etc/langset.sh
+4115f33521a785ad77a014394bb6ca15  ./root/etc/YaST2/control.xml
+2b4ddbd85255840c6dcad61b6e4ea152  ./root/etc/YaST2/liveinstall.patch
+fd6aac17f37159da63c3f6949a7e3b5c  ./root/license.tar.gz
 c3f1f3720ba230cf46568319a6deda1e  ./root/rpmkeys/gpg-pubkey-307e3d54-4be01a65.asc
 65e250b9120f0d142e072b45a0ebfbb7  ./root/rpmkeys/gpg-pubkey-3dbdc284-53674dd4.asc
 e2900eee5db1d6c6349fc912a8fd0900  ./root/usr/bin/correct_live_for_reboot
 d40f0ca82617983273cc0716ff997d9d  ./root/usr/bin/correct_live_install
 c556e9837fe831528357fb3d0b89edb0  ./root/usr/lib/systemd/system/langset.service
-14bd3bb9e54c4340b841db34d9902a0b  ./root/var/lib/livecd/geturls.sh
+b48fcfa1ba1d26458d71072c96d76709  ./root/var/lib/livecd/geturls.sh
 dec33a230720476bd7c39bddf6fa7982  ./root/var/lib/zypp/AnonymousUniqueId
 7a75083b01bd7faadd3a7a771b857765  ./root/var/lib/zypp/LastDistributionFlavor
 aec9e45f03f3edb2ec8d6722bf9ae957  ./root/var/lib/zypp/SoftLocks
-fd6aac17f37159da63c3f6949a7e3b5c  ./root/license.tar.gz
