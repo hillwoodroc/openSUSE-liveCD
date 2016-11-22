@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<image schemaversion="6.1" name="openSUSE-Leap-42.1-livecd-MATE" displayname="openSUSE_Leap_42.1_MATE_Live">
+<image schemaversion="6.1" name="openSUSE-Leap-42.2-livecd-MATE" displayname="openSUSE_Leap_42.2_MATE_Live">
   <description type="system">
-    <author>Stephan Kulow</author>
-    <contact>coolo@novell.com</contact>
-    <specification>openSUSE Leap 42.1 Live system</specification>
+    <author>Hillwood Yang</author>
+    <contact>hillwood@opensuse.org</contact>
+    <specification>openSUSE Leap 42.2 Live system</specification>
   </description>
   <preferences>
-    <type primary="true" boot="isoboot/suse-leap42.1" bootprofile="default" bootkernel="desktop" filesystem="ext4" flags="overlay" hybrid="true" hybridpersistent="true" hybridpersistent_filesystem="ext4" image="iso" editbootconfig="isopatch.sh" firmware="uefi" volid="openSUSE Leap 42.1 MATE Live"/>
+    <type primary="true" boot="isoboot/suse-leap42.1" bootprofile="default" bootkernel="desktop" filesystem="ext4" flags="overlay" hybrid="true" hybridpersistent="true" hybridpersistent_filesystem="ext4" image="iso" editbootconfig="isopatch.sh" firmware="uefi" volid="openSUSE Leap 42.2 MATE Live"/>
     <version>2.8.0</version>
     <bootloader-theme>openSUSE</bootloader-theme>
     <bootsplash-theme>openSUSE</bootsplash-theme>
@@ -24,6 +24,8 @@
     <package name="grub2-branding-openSUSE" bootinclude="true"/>
     <!-- workaround for bnc#892087 -->
     <package name="e2fsprogs" bootinclude="true"/>
+    <!-- make sure Broadcom's BCM4311-, BCM4312-, BCM4321-, and BCM4322-based hardware works ok -->
+    <package name="broadcom-wl"/>
     <package name="yast2-live-installer"/>
     <package name="pam"/>
     <package name="pam-config"/>
@@ -85,7 +87,7 @@
     <package name="wqy-microhei-fonts"/>
     <package name="vlc"/>
     <package name="vlc-codecs"/>
-    <package name="vlc-noX-lang"/>
+    <package name="xfsprogs"/>
     <package name="osdlyrics"/>
     <package name="osdlyrics-lang"/>
     <package name="gstreamer-plugins-bad-orig-addon"/>
@@ -100,19 +102,20 @@
     <package name="openSUSE-release"/>
     <package name="branding-openSUSE"/>
   </packages>
+  <!-- you can use other faster mirror repositories instead of follow repositories -->
   <repository type="yast2">
-    <source path="https://mirrors.ustc.edu.cn/opensuse/distribution/leap/42.1/repo/oss/"/>
+    <source path="https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/42.2/repo/oss/"/>
   </repository>
   <repository type="rpm-md">
-    <source path="https://mirrors.ustc.edu.cn/opensuse/update/leap/42.1/oss/"/>
+    <source path="https://mirrors.tuna.tsinghua.edu.cn/opensuse/update/leap/42.2/oss/"/>
+  </repository>
+    <repository type="yast2">
+    <source path="https://mirrors.tuna.tsinghua.edu.cn/opensuse/distribution/leap/42.2/repo/non-oss/"/>
   </repository>
   <repository type="rpm-md">
-    <source path="http://download.opensuse.org/repositories/home:/hillwood/openSUSE_Leap_42.1/"/>
+    <source path="http://download.opensuse.org/repositories/home:/opensuse_zh/openSUSE_Leap_42.2/"/>
   </repository>
   <repository type="rpm-md">
-    <source path="http://download.opensuse.org/repositories/home:/opensuse_zh/openSUSE_Leap_42.1/"/>
-  </repository>
-  <repository type="rpm-md">
-    <source path="http://ftp.twaren.net/Linux/Packman/suse/openSUSE_Leap_42.1/"/>
+    <source path="http://mirrors.tuna.tsinghua.edu.cn/packman/suse/openSUSE_Leap_42.2/"/>
   </repository>
 </image>

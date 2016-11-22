@@ -1,6 +1,6 @@
 16ca18fa17e2ff7284569317b3c5903f  ./config-cdroot.tgz
 57b68c50dae5b1df10153c8edd572383  ./config.sh
-beb06ab2c6aecaa07397a881a8058021  ./config.xml
+85147bb3245c5f2ccaa43cce5c285ceb  ./config.xml
 183b605b0f89b5b3c3530ba85452c28d  ./isopatch.sh
 cc2b6b50381ad05f6f54dc1436256c71  ./root/etc/langset/af_ZA
 d40835d8ce2ada2eecb6fcfa6e454acb  ./root/etc/langset/ar_EG
@@ -69,7 +69,7 @@ c3f1f3720ba230cf46568319a6deda1e  ./root/rpmkeys/gpg-pubkey-307e3d54-4be01a65.as
 e2900eee5db1d6c6349fc912a8fd0900  ./root/usr/bin/correct_live_for_reboot
 d40f0ca82617983273cc0716ff997d9d  ./root/usr/bin/correct_live_install
 c556e9837fe831528357fb3d0b89edb0  ./root/usr/lib/systemd/system/langset.service
-b48fcfa1ba1d26458d71072c96d76709  ./root/var/lib/livecd/geturls.sh
+28e6d242f11726c36c4e100aae098fb9  ./root/var/lib/livecd/geturls.sh
 dec33a230720476bd7c39bddf6fa7982  ./root/var/lib/zypp/AnonymousUniqueId
 7a75083b01bd7faadd3a7a771b857765  ./root/var/lib/zypp/LastDistributionFlavor
 aec9e45f03f3edb2ec8d6722bf9ae957  ./root/var/lib/zypp/SoftLocks

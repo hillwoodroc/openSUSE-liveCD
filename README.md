@@ -23,7 +23,3 @@ livecd-mate:MATE 桌面环境的模版。附加 VLC 播放器、Gstreamer 解码
 
 构建完成后会在 gnome 目录下生成一个 ISO 镜像。
 
-###bug
-如果需要写入 u 盘，请扎写入结束后将 u 盘的最后一个分区格式化为 Btrfs 以外格式的分区，不然 kernel 会崩溃。
-
-[boo#950999](https://bugzilla.opensuse.org/show_bug.cgi?id=950999) 
