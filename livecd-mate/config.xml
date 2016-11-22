@@ -7,7 +7,7 @@
   </description>
   <preferences>
     <type primary="true" boot="isoboot/suse-leap42.1" bootprofile="default" bootkernel="desktop" filesystem="ext4" flags="overlay" hybrid="true" hybridpersistent="true" hybridpersistent_filesystem="ext4" image="iso" editbootconfig="isopatch.sh" firmware="uefi" volid="openSUSE Leap 42.2 MATE Live"/>
-    <version>2.8.0</version>
+    <version>1.0</version>
     <bootloader-theme>openSUSE</bootloader-theme>
     <bootsplash-theme>openSUSE</bootsplash-theme>
     <packagemanager>zypper</packagemanager>
