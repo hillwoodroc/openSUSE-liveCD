@@ -60,8 +60,8 @@
     <package name="patterns-openSUSE-kde_utilities_opt"/>
     <package name="patterns-openSUSE-kde_yast"/>
     <package name="patterns-openSUSE-sw_management_kde"/>
-    <package name="kdebase4-opensuse"/>
     <package name="qt-creator"/>
+    <package name="kdevelop4"/>
     <package name="audacity"/>
     <package name="audacity-lang"/>
     <package name="kdenlive"/>
